@@ -8,6 +8,8 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 import React from 'react'
 import Cocktails from './components/Cocktails';
+import About from './components/About';
+
 
 const App = () => {
     return (
@@ -15,6 +17,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <Cocktails />
+            <About />
         </main>
     )
 }
